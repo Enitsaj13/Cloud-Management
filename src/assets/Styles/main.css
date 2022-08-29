@@ -1,0 +1,36 @@
+/* Navbar page */
+.nav-button__link {
+  @apply border-none bg-transparent text-black mr-4;
+}
+
+.nav__link {
+  @apply border-b-2 border-zinc-300 w-full;
+}
+
+/* About Card page */
+.div__about {
+  @apply border py-7 rounded-xl shadow-xl;
+}
+
+.text-title__about {
+  @apply text-6xl font-bold text-indigo-600;
+}
+
+.sub-title__about {
+  @apply text-gray-400 mt-2;
+}
+
+/* Card Pricing page */
+.check-Icon {
+  @apply w-8 mr-5 text-green-600;
+}
+
+/* Support */
+.phone-Icon {
+  @apply w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem];
+}
+
+/* Footer */
+.footer__text {
+  @apply font-bold uppercase pt-2;
+}
